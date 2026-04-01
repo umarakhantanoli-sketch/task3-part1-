@@ -1,0 +1,57 @@
+body{
+    background-image: url("form_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    width:800px;
+
+}
+.one{
+    display: flex;
+    align-items: self-start;
+    justify-content: flex-start;
+    margin: 10px;
+    position: relative;
+    right: 20px;
+    bottom: 10px;
+}
+.three{
+    display: flex;
+    align-items: row;
+    justify-content:space-evenly;
+    position: relative;
+    right: 110px;
+}
+.rotated {
+    transform: rotate(45deg) translateX(180px);
+ /* Equal to rotateZ(45deg) */
+}
+.rotate{
+      transform: rotate(20deg);
+      position:relative;
+      top:50px;
+      right: 210px;
+}
+.oneimg{
+  position:relative;
+  bottom: 10px;
+      right: 100px;
+
+}
+.about{
+    background-color:darkred;
+    width: 200px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+    right: 130px;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.last{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    right: 140px;
+}
